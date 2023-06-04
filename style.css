@@ -20,6 +20,7 @@ nav{
 }
 .logo a{
     text-decoration: none;
+    color: black;
 }
 .logo a:hover{
     text-decoration: none;
@@ -135,7 +136,7 @@ a:hover{
     padding: 100px;
 }
 .main a:hover{
-    border-bottom: 2.5px solid rgba(0, 136, 255, 0.826);
+    border-bottom: 2.5px solid rgba(0, 136, 255, 0.874);
     color: black;
 }
 .main a:visited{
@@ -145,7 +146,8 @@ a:hover{
 .main a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
+    border-bottom: 2.5px solid rgba(0, 136, 255, 0.258);
 }
 .subpage_navigation a{
     text-decoration: none;
@@ -162,6 +164,6 @@ a:hover{
     font-size: 1.6vw;
     color: black;
     text-decoration: none;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
