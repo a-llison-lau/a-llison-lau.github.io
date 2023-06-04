@@ -145,6 +145,7 @@ a:hover{
 .main a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 .subpage_navigation a{
     text-decoration: none;
