@@ -14,9 +14,21 @@ nav{
 
 .logo{
     color: black;
-    text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 30px;
+    padding-left: 0px;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo a:hover{
+    text-decoration: none;
+    border-bottom: 0px solid rgba(0, 136, 255, 0.826);
+}
+.logo a:visited{
+    text-decoration: none;
+    border-bottom: 0px solid rgba(0, 136, 255, 0.826);
+    color: black;
 }
 .nav-links{
     display: flex;
@@ -31,8 +43,25 @@ nav{
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
 }
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-links {
+    text-decoration: none;
+}
+
+a:hover{
+    border-bottom: 2.5px solid rgba(0, 136, 255, 0.826);
+}
+
 .burger{
     display: none;
     cursor: pointer;
@@ -98,6 +127,40 @@ nav{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px, -5px);
 }
-.welcome{
+.main{
     font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.4vw;
+    color: black;
+    text-decoration: none;
+    padding: 100px;
+}
+.main a:hover{
+    border-bottom: 2.5px solid rgba(0, 136, 255, 0.826);
+    color: black;
+}
+.main a:visited{
+    text-decoration: none;
+    color: black;
+}
+.main a{
+    text-decoration: none;
+    color: black;
+}
+.subpage_navigation a{
+    text-decoration: none;
+    color:rgb(147, 147, 147);
+    font-size: 1.3vw;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.first_page{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.6vw;
+    color: black;
+    text-decoration: none;
+    padding-left: 300px;
+    padding-right: 300px;
 }
