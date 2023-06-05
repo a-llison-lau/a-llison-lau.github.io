@@ -172,8 +172,21 @@ a:hover{
 }
 .subpage_navigation a{
     text-decoration: none;
-    color:rgb(147, 147, 147);
-    font-size: 1.3vw;
+    color: rgb(77, 77, 77);
+    font-size: 1.4vw;
+}
+.subpage_navigation a:hover{
+    border-bottom: 2.5px solid rgba(0, 136, 255, 0.874);
+    color: rgb(77, 77, 77);
+}
+.subpage_navigation a:visited{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+.subpage_navigation {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    font-size: 1.4vw;
 }
 .center {
     display: block;
@@ -193,13 +206,11 @@ a:hover{
     float: left;
     padding: 5px;
 }
-  
 /* Style the images inside the grid */
 .column img {
 opacity: 0.8; 
 cursor: pointer; 
 }
-
 .column img:hover {
 opacity: 1;
 }
@@ -207,7 +218,6 @@ opacity: 1;
     padding-left: 90px;
     padding-right: 90px;
 }
-
 /* Clear floats after the columns */
 .row:after {
 content: "";
