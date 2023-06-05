@@ -152,23 +152,23 @@ a:hover{
 .past_projects{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 1.4vw;
-    color: rgb(78, 78, 78);
+    color: rgb(77, 77, 77);
     text-decoration: none;
     padding: 100px;
 }
-.past_projects a{
-    text-decoration: none;
-    color: rgb(78, 78, 78);
-    font-weight: bolder;
-    border-bottom: 2.5px solid rgba(0, 136, 255, 0.258);
-}
 .past_projects a:hover{
     border-bottom: 2.5px solid rgba(0, 136, 255, 0.874);
-    color: rgb(78, 78, 78);
+    color: rgb(77, 77, 77);
 }
 .past_projects a:visited{
     text-decoration: none;
-    color: rgb(78, 78, 78);
+    color: rgb(77, 77, 77);
+}
+.past_projects a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-weight: bolder;
+    border-bottom: 2.5px solid rgba(0, 136, 255, 0.258);
 }
 .subpage_navigation a{
     text-decoration: none;
