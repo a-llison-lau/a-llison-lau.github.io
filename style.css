@@ -167,3 +167,29 @@ a:hover{
     padding-left: 250px;
     padding-right: 250px;
 }
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 5px;
+}
+  
+/* Style the images inside the grid */
+.column img {
+opacity: 0.8; 
+cursor: pointer; 
+}
+
+.column img:hover {
+opacity: 1;
+}
+.row{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
