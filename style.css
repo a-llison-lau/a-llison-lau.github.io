@@ -2,7 +2,7 @@
     margin: 5px;
     padding: 0px;
     box-sizing: border-box;
-    cursor: url(cursor.png), auto;
+    /* cursor: url(cursor.png), auto; */
 }
 
 nav{
@@ -188,6 +188,10 @@ a:hover{
     text-decoration: none;
     color: rgb(26, 26, 26);
     font-size: 1.4vw;
+}
+.page_title{
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 .center {
     display: block;
