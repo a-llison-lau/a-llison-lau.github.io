@@ -16,7 +16,7 @@ nav{
 .logo{
     color: black;
     letter-spacing: 1px;
-    font-size: 4vh;
+    font-size: 22pt;
     padding-left: 0px;
     font-weight: lighter;
 }
@@ -98,7 +98,7 @@ a:hover{
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        background-color:rgba(255, 255, 224, 0.729);
+        background-color:rgba(255, 255, 224, 0);
     }
     .nav-links li{
         opacity: 0;
@@ -131,7 +131,7 @@ a:hover{
 }
 .main{
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 1.4vw;
+    font-size: 12pt;
     color: black;
     text-decoration: none;
     padding: 100px;
@@ -152,7 +152,7 @@ a:hover{
 }
 .past_projects{
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 1.4vw;
+    font-size: 12pt;
     color: rgb(77, 77, 77);
     text-decoration: none;
     padding: 100px;
@@ -174,7 +174,7 @@ a:hover{
 .subpage_navigation a{
     text-decoration: none;
     color: rgb(77, 77, 77);
-    font-size: 1.4vw;
+    font-size: 12pt;
 }
 .subpage_navigation a:hover{
     border-bottom: 2.5px solid rgba(0, 136, 255, 0.874);
@@ -187,7 +187,7 @@ a:hover{
 .subpage_navigation {
     text-decoration: none;
     color: rgb(26, 26, 26);
-    font-size: 1.4vw;
+    font-size: 12pt;
 }
 .page_title{
     padding-top: 12px;
@@ -200,7 +200,7 @@ a:hover{
   }
 .first_page{
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 1.6vw;
+    font-size: 14pt;
     color: black;
     text-decoration: none;
     padding-left: 250px;
