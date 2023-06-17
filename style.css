@@ -62,7 +62,7 @@ nav{
 }
 
 a:hover{
-    border-bottom: 2.5px solid rgba(0, 136, 255, 0.826);
+    border-bottom: 2.5px solid #0088ffd3;
 }
 
 .burger{
