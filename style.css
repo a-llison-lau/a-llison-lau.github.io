@@ -203,8 +203,8 @@ a:hover{
     font-size: 14pt;
     color: black;
     text-decoration: none;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 /* The grid: Four equal columns that floats next to each other */
 .column {
