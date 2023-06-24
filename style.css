@@ -131,10 +131,10 @@ a:hover{
 }
 .main{
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 12pt;
+    font-size: 13pt;
     color: black;
     text-decoration: none;
-    padding: 100px;
+    padding: 8.5vw;
 }
 .main a:hover{
     border-bottom: 2.5px solid rgba(0, 136, 255, 0.874);
@@ -152,10 +152,10 @@ a:hover{
 }
 .past_projects{
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 12pt;
+    font-size: 13pt;
     color: rgb(77, 77, 77);
     text-decoration: none;
-    padding: 100px;
+    padding: 8.5vw;
 }
 .past_projects a:hover{
     border-bottom: 2.5px solid rgba(0, 136, 255, 0.874);
@@ -203,15 +203,22 @@ a:hover{
     font-size: 14pt;
     color: black;
     text-decoration: none;
-    padding-left: 200px;
-    padding-right: 200px;
+    flex-basis: 1 1 50%;
+    float: center;
+    width: 40vw;
 }
-/* The grid: Four equal columns that floats next to each other */
+.container {
+    padding-top: 7vh;
+    padding-bottom: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 .column {
     float: left;
     padding: 5px;
 }
-/* Style the images inside the grid */
 .column img {
 opacity: 0.8; 
 cursor: pointer; 
@@ -223,7 +230,6 @@ opacity: 1;
     padding-left: 90px;
     padding-right: 90px;
 }
-/* Clear floats after the columns */
 .row:after {
 content: "";
 display: table;
