@@ -4,7 +4,6 @@
     box-sizing: border-box;
     /* cursor: url(cursor.png), auto; */
 }
-
 nav{
     display: flex;
     justify-content: space-around;
@@ -177,7 +176,7 @@ a:hover{
     font-size: 12pt;
 }
 .subpage_navigation a:hover{
-    border-bottom: 2.5px solid rgba(0, 136, 255, 0.874);
+    border-bottom: 2.5px solid #0088ffdf;
     color: rgb(77, 77, 77);
 }
 .subpage_navigation a:visited{
