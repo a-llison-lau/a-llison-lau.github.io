@@ -4,6 +4,11 @@
     box-sizing: border-box;
     /* cursor: url(cursor.png), auto; */
 }
+
+p{
+    padding-bottom: 14px;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -19,27 +24,33 @@ nav{
     padding-left: 0px;
     font-weight: lighter;
 }
+
 .logo a{
     text-decoration: none;
     color: black;
 }
+
 .logo a:hover{
     text-decoration: none;
     border-bottom: 0px solid rgba(0, 136, 255, 0.826);
 }
+
 .logo a:visited{
     text-decoration: none;
     border-bottom: 0px solid rgba(0, 136, 255, 0.826);
     color: black;
 }
+
 .nav-links{
     display: flex;
     justify-content: space-around;
     width: 30%;
 }
+
 .nav-links li{
     list-style: none;
 }
+
 .nav-links a{
     color: black;
     text-decoration: none;
@@ -68,6 +79,7 @@ a:hover{
     display: none;
     cursor: pointer;
 }
+
 .burger div{
     width: 15px;
     height: 2px;
@@ -106,9 +118,11 @@ a:hover{
         display: block;
     }
 }
+
 .nav-active{
     transform: translateX(0%);
 }
+
 @keyframes navLinkFade{
     from{
         opacity: 0;
@@ -119,15 +133,19 @@ a:hover{
         transform: translateX(0px);
     }
 }
+
 .toggle .line1{
     transform: rotate(-45deg) translate(-5px, 4px);
 }
+
 .toggle .line2{
     opacity: 0;
 }
+
 .toggle .line3{
     transform: rotate(45deg) translate(-5px, -5px);
 }
+
 .main{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 13pt;
@@ -135,20 +153,24 @@ a:hover{
     text-decoration: none;
     padding: 8.5vw;
 }
+
 .main a:hover{
     border-bottom: 2.5px solid rgba(0, 136, 255, 0.874);
     color: black;
 }
+
 .main a:visited{
     text-decoration: none;
     color: black;
 }
+
 .main a{
     text-decoration: none;
     color: black;
     font-weight: bolder;
     border-bottom: 2.5px solid rgba(0, 136, 255, 0.258);
 }
+
 .past_projects{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 13pt;
@@ -156,47 +178,57 @@ a:hover{
     text-decoration: none;
     padding: 8.5vw;
 }
+
 .past_projects a:hover{
     border-bottom: 2.5px solid rgba(0, 136, 255, 0.874);
     color: rgb(77, 77, 77);
 }
+
 .past_projects a:visited{
     text-decoration: none;
     color: rgb(77, 77, 77);
 }
+
 .past_projects a{
     text-decoration: none;
     color: rgb(77, 77, 77);
     font-weight: bolder;
     border-bottom: 2.5px solid rgba(0, 136, 255, 0.258);
 }
+
 .subpage_navigation a{
     text-decoration: none;
     color: rgb(77, 77, 77);
     font-size: 12pt;
 }
+
 .subpage_navigation a:hover{
     border-bottom: 2.5px solid #0088ffdf;
     color: rgb(77, 77, 77);
 }
+
 .subpage_navigation a:visited{
     text-decoration: none;
     color: rgb(77, 77, 77);
 }
+
 .subpage_navigation {
     text-decoration: none;
     color: rgb(26, 26, 26);
     font-size: 12pt;
 }
+
 .page_title{
     padding-top: 12px;
     padding-bottom: 12px;
 }
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
 .first_page{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 14pt;
@@ -206,6 +238,7 @@ a:hover{
     float: center;
     width: 40vw;
 }
+
 .container {
     padding-top: 7vh;
     padding-bottom: 50vh;
@@ -214,23 +247,62 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+
 .column {
     float: left;
     padding: 5px;
 }
+
 .column img {
-opacity: 0.8; 
-cursor: pointer; 
+    opacity: 0.8; 
+    cursor: pointer; 
 }
+
 .column img:hover {
 opacity: 1;
 }
+
 .row{
     padding-left: 90px;
     padding-right: 90px;
 }
+
 .row:after {
-content: "";
-display: table;
-clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
+
+.course_intro_link {
+    position: relative;
+}
+
+.course_intro {
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+    position: absolute;
+    font-size: 13px;
+    margin-left: 20%;
+    margin-top: 0.5%;
+    padding-top: 10pt;
+    padding-bottom: 12pt;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    width: 60vw;
+    background-color: rgba(255, 255, 255, 0.759);
+    border: 1pt solid rgba(0, 0, 0, 0.711);
+    transition: opacity 0.4s linear, visibility 0.4s linear;
+}
+
+.course_intro_link:hover,
+.course_intro_link:hover + .course_intro {
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+/* .course_intro_link:hover + .course_intro {
+
+} */
