@@ -17,6 +17,12 @@ nav{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+ul{
+    list-style-type: circle;
+    padding-left: 2vw;
+    padding-bottom: 14px;
+}
+
 .logo{
     color: black;
     letter-spacing: 1px;
@@ -301,4 +307,30 @@ opacity: 1;
   opacity: 1;
   visibility: visible;
   z-index: 1;
+}
+
+.accordion {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: white;
+    cursor: pointer;
+    padding: 2vh;
+    width: 100%;
+    text-align: left;
+    font-size: 12pt;
+    transition: 0.6s;
+    border: none;
+}
+
+.active, .accordion:hover {
+    background-color: white;
+    border: 1.25pt solid #0088ff95;
+}
+
+.panel {
+    padding: 0 2vh;
+    font-size: 12pt;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
