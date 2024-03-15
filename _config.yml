@@ -1,6 +1,6 @@
-title: Researcher
+title: Allison Lau
 url: "https://ankitsultana.com"
-baseurl: "/researcher"
+baseurl: ""
 remote_theme: ankitsultana/researcher@gem
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -17,8 +17,13 @@ sass:
 
 nav:
  - name: "About"
-   link: "/researcher/"
+   link: "index"
  - name: "Resume"
    link: "resume.pdf"
+ - name: "Blog"
+   link: "blog" 
+ - name: "Misc"
+   link: "misc"
  - name: "Contact"
    link: "contact"
+

@@ -14,6 +14,15 @@ Simply fork the repository and edit away.
 you would build your site locally for testing. If you know how, open up an issue and let me know.
 * For more info, [refer this](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/).
 
+#### Building and deploying
+```
+jekyll serve
+jekyll build
+git add .
+git commit -m "message"
+git push
+```
+
 ### Customization
 
 * You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.

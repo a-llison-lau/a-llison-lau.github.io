@@ -3,24 +3,6 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [allison.lau@mail.utoronto.ca](mailto:allison.lau@mail.utoronto.ca)
 
-* Phone: [+91-123123](tel:+91-123123)
-
----
-
-## Mailing Address
-
-> 221B, Baker Street
->
-> London
->
-> United Kingdom
-
----
-
-## Social
-
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
+* Github: [https://github.com/a-llison-lau](https://github.com/a-llison-lau)
