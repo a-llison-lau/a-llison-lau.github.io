@@ -5,7 +5,7 @@ remote_theme: ankitsultana/researcher@gem
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
 kramdown:
-  math_engine: katex
+  math_engine: mathjax
 
 tracking_id: #
 
