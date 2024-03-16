@@ -4,6 +4,8 @@ baseurl: ""
 remote_theme: ankitsultana/researcher@gem
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
+kramdown:
+  math_engine: katex
 
 tracking_id: #
 
@@ -18,12 +20,12 @@ sass:
 nav:
  - name: "About"
    link: "index"
- - name: "Resume"
-   link: "resume.pdf"
  - name: "Blog"
    link: "blog" 
  - name: "Misc"
    link: "misc"
+ - name: "CV"
+   link: "resume.pdf"
  - name: "Contact"
    link: "contact"
 
