@@ -16,7 +16,7 @@ My research interests generally lie in healthcare/biotech $$\times$$ {graphics, 
 
 
 ## Projects
-#### 1. Analyzing the effect of undermining on suture forces during simulated skin flap surgeries with a three-dimensional finite element method \[[code](https://mcsgitlab.utm.utoronto.ca/medcvr/medcvr-patch-3d/-/tree/allison)\]\[[preprint](https://a-llison-lau.github.io/VCBM_2024.pdf)\]
+#### 1. Analyzing the effect of undermining on suture forces during simulated skin flap surgeries with a three-dimensional finite element method \[[code](https://mcsgitlab.utm.utoronto.ca/medcvr/medcvr-patch-3d/-/tree/allison)\]\[[paper under review](https://a-llison-lau.github.io/VCBM_2024.pdf)\]
 
 *Wenzhangzhi Guo, **Allison Tsz Kwan Lau**, Joel C. Davies, Vito Forte, Eitan Grinspun, Lueder Alexander Kahrs*
 
