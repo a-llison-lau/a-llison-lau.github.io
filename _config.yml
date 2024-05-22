@@ -1,0 +1,31 @@
+title: Allison Lau
+url: "https://a-llison-lau.github.io"
+baseurl: ""
+remote_theme: ankitsultana/researcher@gem
+markdown: kramdown
+#ins_logo: "./bits-logo.png"
+kramdown:
+  math_engine: mathjax
+
+tracking_id: #
+
+footer: yes
+footer_url: "https://github.com/ankitsultana"
+footer_text: "Page design by Ankit Sultana"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "index"
+ - name: "Blog"
+   link: "blog" 
+ - name: "Misc"
+   link: "misc"
+ - name: "CV"
+   link: "resume.pdf"
+ - name: "Contact"
+   link: "contact"
+

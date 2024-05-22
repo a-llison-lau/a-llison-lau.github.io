@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Allison Lau</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, accent, , Allison Lau, jekyll">
+    <meta name="author" content="">
+    
+    
+    
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="Allison Lau RSS" href="/feed.xml" />
+    <link rel="stylesheet" href="/css/main.css">
+    
+    
+    <!-- Facebook Open Graph -->
+    <meta name="og:description" content="">
+    <meta name="og:title" content="Allison Lau">
+    <meta name="og:url" content="https://a-llison-lau.github.io/blog.html">
+    <meta name="og:type" content="article">
+    
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Allison Lau">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:url" content="https://a-llison-lau.github.io/blog.html">
+    
+        <meta name="twitter:image" content="">
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar container">
+            
+            <a id="author-name" class="alignable pull-left" href="https://a-llison-lau.github.io">Allison Lau</a>
+            <ul id="navlist" class="alignable pull-right navbar-ul">
+                
+                    
+                        <li class="alignable pull-left nav-list"><a href="index">About</a>
+                    
+                    
+                        /
+                    
+                        </li>
+                
+                    
+                        <li class="alignable pull-left nav-list"><a href="blog">Blog</a>
+                    
+                    
+                        /
+                    
+                        </li>
+                
+                    
+                        <li class="alignable pull-left nav-list"><a href="misc">Misc</a>
+                    
+                    
+                        /
+                    
+                        </li>
+                
+                    
+                        <li class="alignable pull-left nav-list"><a href="resume.pdf">CV</a>
+                    
+                    
+                        /
+                    
+                        </li>
+                
+                    
+                        <li class="alignable pull-left nav-list"><a href="contact">Contact</a>
+                    
+                    
+                        </li>
+                
+            </ul>
+        </div>
+        <div style="clear:both"></div>
+        <hr>
+        
+            <div class="container content">
+        
+                <h1 id="blog">Blog</h1>
+
+<blockquote>
+  <p>Assignments are sometimes fun.</p>
+</blockquote>
+
+<h3 id="not-every-cnf-is-the-same">Not Every CNF is the Same</h3>
+
+<p>A boolean formula is a <em>four-occurence CNF formula</em> if it is in conjunctive normal form and every variable appears at most 4 times. Define</p>
+
+\[{\sf CNF_4} = \{\psi : \psi \text{ is a satisfiable, four-occurrence CNF formula}\}\]
+
+<p>It is well known that \({\sf CNF_4}\) is \({\cal NP}\)-complete. But consider a <em>four-occurence 4CNF formula</em>, which is in conjunctive normal form, and every variable appears at most four times, and every clause contains exactly four literals. Define</p>
+
+\[{\sf 4CNF_4} = \{\phi : \phi \text{ is a satisfiable, four-occurrence 4CNF formula}\}\]
+
+<p>It turns out that \({\sf 4CNF_4}\) is in \({\cal P}\)! It turns out that \({\sf 4CNF_4}\) can be formulated into a network flow problem. First, create a bipartite graph \(G = (X \cup C, E)\), where \(X\) is the set of variables, \(C\) is the set of clauses, and \(E = \{(x_i, c_j): x_i \in c_j\}\). Then \(\phi\) is satisfiable if there exists a perfect matching in this graph. Let’s see how.</p>
+
+<p>Proof. Suppose there exists a perfect matching in \(G\), then for every clause there is a variable which we match the clause with. Set this variable to True. (If it is the negation of the variable that appears in the clause, set the negation of the variable to True). This is the assignment that satisfies \(\phi\).</p>
+
+<p>Now we will prove that such perfect matching always exists. By Hall’s Marriage Theorem, \(G\) has a perfect matching if and only if \(\|N(S)\| \geq \|S\|\) for all \(S \subseteq C\), where \(N(S)\) denotes the neighbour of \(S\) (one edge away from any vertex in \(S\)). Let \(S\) be any subset of \(C\) such that \(\|S\| = k\) for some \(k \in \mathbb{N}\). Since each clause has exactly 4 literals, there are 4 edges that connect to each clause, hence \(4k\) edges entering \(S\), and there are \(4k\) edges leaving \(N(S)\). Since every variable appears at most 4 times, each variable in \(N(S)\) has at most 4 edges leaving it. Hence \(\|N(S)\| \geq k \Rightarrow \|N(S)\| \geq \|S\|\). Thus, there always exists a perfect matching for any \(\phi\) in \({\sf 4CNF_4}\).</p>
+
+<p>Solving the perfect matching problem using network flow takes polynomial time using Ford-Fulkerson or faster algorithms. Thus \({\sf 4CNF_4}\) is in \({\cal P}\). Since \({\cal P} \subseteq {\cal NP}\), the problem is also in \({\cal NP}\).</p>
+
+<hr />
+
+<h3 id="boundary-of-neural-network-trainability-is-fractal">Boundary of neural network trainability is fractal</h3>
+
+<p>There was this assignment question which I believe was based on this <a href="https://arxiv.org/pdf/2402.06184.pdf">paper</a>. As the use of neural networks explode in the past few years, we were all trying make more and more powerful applications of it, and it’s not until recently that people begin to look back on what’s <em>really</em> going on in these networks. This result – boundary of neural network is fractal – is particularly interesting. Consider this simple neural network that is defined as</p>
+
+\[f(x; w_1, w_2) = w_2w_1x\]
+
+<p>with \(x, w_1, w_2 \in \mathbb{R}\). Use the squared error loss \(l(y, t) = \frac{1}{2}\|y - t\|^2\), use the range of learning rates \(\alpha_1, \alpha_2 \in [0, 1]\) with a step size of 0.001, and use the initial weights \((w_1(0), w_2(0)) = (2.5, 2)\), plot the landscape of \(\log_{10}L\) where \(L\) is the population loss. Fractals at the boundary! [<a href="https://colab.research.google.com/drive/1NYnVmrkrcSlyWCzO2CEAPOSDAEkon2x1?usp=sharing">Google Colab Source Code</a>]</p>
+
+<p><img src="fractals.png?raw=true" alt="Fractals" title="Fractals at the boundary" /></p>
+
+<hr />
+
+                
+                    <hr />
+                    <p style="text-align: center; margin-bottom: 10px">
+                    <a href="https://github.com/ankitsultana" style="color: black"><small>Page design by Ankit Sultana</small></a>
+                    </p>
+                
+            </div>
+    </div>
+    
+</body>
+<footer>
+</footer>
