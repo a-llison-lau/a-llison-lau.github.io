@@ -10,7 +10,7 @@ Hello! I am a third year CS undergrad at the University of Toronto. I also pursu
 
 ## Research Interests
 
-My research interests generally lie in healthcare/biotech $$\times$$ {graphics, vision, machine learning}. Previously, I worked on skin flap surgery simulations at [MEDCVR](https://medcvr.utm.utoronto.ca/). I am currently working on an exciting project on diverse human preferences in reinforcement learning from human feedback (RLHF) at [Vector Institute](https://vectorinstitute.ai/). I am also part of the [Wearipedia](https://www.wearipedia.com/) team for wearables from Snyder Lab based in Stanford.
+My research interests generally lie in healthcare/biotech $$\times$$ {graphics, vision, machine learning}. Previously, I worked on skin flap surgery simulations at [MEDCVR](https://medcvr.utm.utoronto.ca/). I am currently working on algorithms to cater diverse human preferences in reinforcement learning from human feedback (RLHF) at [Vector Institute](https://vectorinstitute.ai/). I am also part of the [Wearipedia](https://www.wearipedia.com/) team for wearables from Snyder Lab based in Stanford.
 
 ---
 
@@ -34,7 +34,7 @@ We added an adative term for the decay rates in Adam and tested the performance 
 
 ---
 
-When I am not sitting in front of the computer, I enjoy the outdoors, or reading, or watching Netflix/YouTube. I'm passionate about learning. I love marine animals, especially marine mammals and octopuses. I have worked on various tasks, from 3D modeling to machining to video editing. One thing I've come to realize is that learning is never wasted!
+When I am not sitting in front of the computer, I enjoy the outdoors, or reading, or watching Netflix/YouTube. I'm passionate about learning. I love marine animals, especially marine mammals and octopuses. I have worked on various tasks, from 3D modeling to machining to video editing. One thing I've come to realize is that learning is never wasted! Most recently, I am interested in the book: [Origami design secrets : mathematical methods for an ancient art](https://www.amazon.ca/Origami-Design-Secrets-Mathematical-Methods/dp/1568814364)
 
 #### See some related people ...
 [Henry Yip](https://henry-yip.github.io/), [Toby Lam](https://users.ox.ac.uk/~ball5935/)
